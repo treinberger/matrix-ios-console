@@ -382,7 +382,8 @@
 
                if (granted)
                {
-                   [self.roomDataSource.room placeCallWithVideo:isVideoCall success:nil failure:nil];
+                   [self.roomDataSource.room placeCallWithVideo:isVideoCall];
+                   //[self.roomDataSource.room placeCallWithVideo:isVideoCall success:nil failure:nil];
                }
                else
                {
